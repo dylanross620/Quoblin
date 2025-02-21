@@ -40,6 +40,8 @@ The first time you run the bot, you will be prompted for several variables:
 - First you will be prompted for the id of the Google Sheet to be used for the quotes. This can be obtained from the URL of the sheet, in the format `docs.google.com/spreadsheets/d/<your_id_here>/edit`.
 - Second you will be prompted for the range of the spreadsheet that is to be used for quotes in the format `<sheet_name>!<range>`. For example, if the primary sheet within the spreadsheet file is name `Quotes` and you would like quotes to fill the first column, the range should be `Quotes!A:B` (the 2nd column is needed).
 - Third you will be prompted for the shared link generated in the Google Sheets setup.
+- Fourth you will be prompted for the Discord bot token you received in step 5 of the Discord setup
+- Finally, you will be asked to provide a comma-separated list of user roles that are considered moderators for the sake of the bot. This list is case-sensitive
 
 To change any of these settings, you can modify the `settings.json` file manually or delete it in order to redo the prompts
 
